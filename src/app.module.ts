@@ -4,7 +4,7 @@ import { UsersModule } from './users/users.module';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb+srv://Portes:Antso2003@cluster.ubdvy.mongodb.net/db_api_nest'),
+    MongooseModule.forRoot('mongodb://127.0.0.1:27017/db_api_nest'),
     UsersModule],
   controllers: [],
   providers: [],
